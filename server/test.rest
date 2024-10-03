@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/getusers
+
+###
+
+POST http://localhost:3000/api/createuser
+Content-Type: application/json
+
+{
+    "email":"aniket",
+    "userName": "String",
+    "password": "abc"
+}
+###
+
+POST http://localhost:3000/api/updateuser/66fe418c812f4554ed7b6c0f
+Content-Type: application/json
+
+{
+    "email":"gautam",
+    "userName": "awf",
+    "password": "abc"
+}
+
+###
+
+DELETE http://localhost:3000/api/deleteuser/66fe418c812f4554ed7b6c0f
+Content-Type: application/json
